@@ -1,0 +1,48 @@
+body{
+	
+}
+
+.uull{
+	margin:0;
+        /*background: #efefef; 
+	border-radius: 20px;*/
+        padding: 0 0px;
+}
+
+.llii{
+	width:100px;
+	height:50px;
+	float:left;
+	color:#191919;
+	text-align:center;
+	overflow:hidden;
+}
+
+
+.aa{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.pp{
+	padding:0px 5px;
+}
+
+.subtext{
+        padding-top:15px;
+}
+
+/*Menu Color Classes*/
+.home-menu{background:#CC3333 url('../images/asset/home.png') top left no-repeat;}
+.partnership-menu{background:#CC3333  url('../images/asset/partnership.png') top left no-repeat;}
+.galleri-menu{background:#CC3333 url('../images/asset/gallery.png') top left no-repeat;}
+.contact-menu{background:#CC3333  url('../images/asset/contact.png') top left no-repeat;}
+.about-menu{background:#CC3333  url('../images/asset/aboutUs.png') top left no-repeat;}
+
+/*
+6AA63B
+FBC700
+D52100
+5122B4
+0292C0
+*/

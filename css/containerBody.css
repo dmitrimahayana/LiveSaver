@@ -1,0 +1,133 @@
+/* 
+    Document   : containerBody
+    Created on : Apr 9, 2013, 2:41:48 AM
+    Author     : Demit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background: url(../images/asset/homeblood.jpg);
+    background-size: 100%;
+    font-family:"Lucida Grande", arial, sans-serif;
+}
+
+#container{
+    width: 1380px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-large{
+    background: url(../images/asset/box-large.png);
+    float: right;
+    margin-top: -10px;
+    position: relative;
+    width:620px;
+    height: 640px;
+}
+
+.box-small{
+    background: url(../images/asset/box-small.png)no-repeat;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 35px;
+    width: 550px;
+    height: 450px;
+    z-index: 200;
+}
+
+.slog{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 600px;
+    width: 400px;
+    font-size: 18pt;
+}
+
+#form-bank{
+    background: url(../images/asset/box-small.png)no-repeat;
+    position: absolute;
+    top: -550px;
+    left: 35px;
+    width: 550px;
+    height: 450px;
+    z-index: 100;
+}
+
+#form-donor{
+    background: url(../images/asset/box-small.png)no-repeat;
+    position: absolute;
+    top: -550px;
+    left: 35px;
+    width: 550px;
+    height: 450px;
+    z-index: 100;
+}
+
+.menu{
+    /*background:blue;
+    */
+    position: relative;
+    z-index: 500;
+    padding-left:50px;
+}
+
+.btn-red {
+	-moz-box-shadow:inset 0px 0px 0px 0px #fab3ad;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #fab3ad;
+	box-shadow:inset 0px 0px 0px 0px #fab3ad;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fa665a), color-stop(1, #d34639) );
+	background:-moz-linear-gradient( center top, #fa665a 5%, #d34639 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fa665a', endColorstr='#d34639');
+	background-color:#fa665a;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #98231a;
+}.btn-red:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d34639), color-stop(1, #fa665a) );
+	background:-moz-linear-gradient( center top, #d34639 5%, #fa665a 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d34639', endColorstr='#fa665a');
+	background-color:#d34639;
+}.btn-red:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-blue {
+	-moz-box-shadow:inset 0px 0px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #cae3fc;
+	box-shadow:inset 0px 0px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #287ace;
+}.btn-blue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}.btn-blue:active {
+	position:relative;
+	top:1px;
+}

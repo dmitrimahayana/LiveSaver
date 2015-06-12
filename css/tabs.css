@@ -1,0 +1,65 @@
+div.content {
+    /*border: #48f solid 3px;*/
+    clear: left;
+    padding: 1em;
+    height: 100%;
+}
+
+div.content.inactive {
+	display: none;
+}
+
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc a {
+    /*background: url(../images/asset/donor/tab2.png)no-repeat;*/
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+ol#toc a:hover {
+    /*background: url(../images/asset/donor/tab1.png)no-repeat;*/
+    /*background-position: 0 -120px;*/
+    color: #fff;
+}
+
+ol#toc a:hover span {
+    /*background-position: 100% -120px;*/
+}
+
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ol#toc li a.title-tab1.active {
+    background: url(../images/asset/donor/tab1hover.png)no-repeat;
+    /*background-position: 0 -60px;*/
+    color: #fff;
+    font-weight: bold;
+}
+
+ol#toc li a.title-tab2.active {
+    background: url(../images/asset/donor/tab2hover.png)no-repeat;
+    /*background-position: 0 -60px;*/
+    color: #fff;
+    font-weight: bold;
+}
+
+ol#toc li a.active span {
+    background-position: 100% -60px;
+}
+
+ol#toc span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
